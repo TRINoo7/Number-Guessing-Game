@@ -26,9 +26,6 @@ private int port = 8888;
 private int randomNum;
 public Server()
 {
-
-5
-
 startRunning();
 }
 public void startRunning()
@@ -82,9 +79,6 @@ int max=50;
 randomNum=(int) (Math.random()*(max-min+1)+min);
 }
 else if(range==3)
-
-6
-
 {
 int min=1;
 int max=100;
@@ -139,9 +133,6 @@ try
 {
 String ms="1";
 output.writeObject(ms);
-
-7
-
 output.flush();
 }
 catch(IOException e)
